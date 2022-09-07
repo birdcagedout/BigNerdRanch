@@ -11,6 +11,10 @@ import Foundation
 class Zombie: Monster {
 	var walksWithLimp = true
 	
+	override class var spookyNoise: String {
+		return "Brains..."
+	}
+	
 	func regenerate() {
 		walksWithLimp = false
 	}
