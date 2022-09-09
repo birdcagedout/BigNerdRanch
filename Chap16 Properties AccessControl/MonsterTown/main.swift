@@ -18,12 +18,16 @@ fredTheZombie.town = myTown
 fredTheZombie.terrorizeTown()
 fredTheZombie.town?.printDescription()
 
-print("Victim pool: \(fredTheZombie.victimPool)")
-fredTheZombie.victimPool = 500
-print("Victim pool: \(fredTheZombie.victimPool); population: \(fredTheZombie.town?.population ?? 0)")
+//print("Victim pool: \(fredTheZombie.victimPool)")
+//fredTheZombie.victimPool = 500
+//print("Victim pool: \(fredTheZombie.victimPool); population: \(fredTheZombie.town?.population ?? 0)")
 
-print(Zombie.spookyNoise)
 
-if Zombie.isTerrifying {
-	print("Run away")
-}
+//print(Zombie.spookyNoise)
+//if Zombie.isTerrifying {
+//	print("Run away")
+//}
+
+let names = ["Almasi", "Harris", "Jun", "Kala"]
+let firstnames = names.compactMap(\.first)
+print(firstnames)
